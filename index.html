@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="calculator">
+            <div class="wrapper">
+                <div class="logo">CalculatorX</div>
+                <div class="display">
+                    <div id="mem-indicator"></div>
+                    <input id="display" disabled=true></input>
+                </div>
+                <div id="calculator" class="buttons">
+                    <button class="op-key" id="clear-all">C</button>
+                    <button class="op-key" id="plus-min"><</button>
+                            <button class="op op-key">/</button>
+                            <button class="op op-key">*</button>
+                            <button class="numbers">7</button>
+                            <button class="numbers">8</button>
+                            <button class="numbers">9</button>
+                            <button class="op op-key">-</button>
+                            <button class="numbers">4</button>
+                            <button class="numbers">5</button>
+                            <button class="numbers">6</button>
+                            <button class="op op-key">+</button>
+                            <button class="numbers">1</button>
+                            <button class="numbers">2</button>
+                            <button class="numbers">3</button>
+                            <button class="numbers" id="double-width-btn">0</button>
+                            <button class="numbers">.</button>
+                            <button class="eq op" id="double-height-btn">=</button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
